@@ -1,0 +1,16 @@
+.sword {
+animation-name: moving-sword;
+animation-duration: 7s;
+animation-delay: 2s;
+
+}
+@keyframes moving-sword {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(7200deg);
+  }
+}
+
+
